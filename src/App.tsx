@@ -32,7 +32,7 @@ const tools = [
     description: "15+ AI video models (Veo 3.1, Sora 2, Kling 3.0, WAN 2.6) under one subscription with 70+ cinematic camera presets.",
     hospitality: ["Drone-style property flyovers", "Cinematic room reveals", "Pool & spa ambiance reels", "Seasonal campaign hero videos"],
     usd: { Free: "Free tier", Starter: "$15/mo", Plus: "$39/mo", Ultra: "$99/mo" },
-    inr: { Free: "Free tier", Starter: "₹1,250/mo", Plus: "₹3,250/mo", Ultra: "₹8,250/mo" },
+    inr: { Free: "Free tier", Starter: "₹1,429/mo", Plus: "₹3,715/mo", Ultra: "₹9,430/mo" },
     note: "Billed annually. Credit-based — Veo 3.1 costs 40–70 credits/video.",
     accent: "#C47A00", accentBg: "#FEF3C7", accentBorder: "#F59E0B", tag: "VIDEO GEN"
   },
@@ -42,7 +42,7 @@ const tools = [
     description: "Emotionally resonant text-to-speech, voice cloning, and AI dubbing. The gold standard for hospitality narration.",
     hospitality: ["Property tour narration", "Multilingual ad voiceovers", "AI concierge voice", "Brand ambassador voice clone"],
     usd: { Free: "Free (10 min/mo)", Starter: "$5/mo", Creator: "$11/mo", Pro: "$99/mo" },
-    inr: { Free: "Free", Starter: "₹420/mo", Creator: "₹920/mo", Pro: "₹8,300/mo" },
+    inr: { Free: "Free", Starter: "₹476/mo", Creator: "₹1,048/mo", Pro: "₹9,430/mo" },
     note: "India billing in USD + 18% GST if business entity. Annual saves ~17%.",
     accent: "#1D4ED8", accentBg: "#EFF6FF", accentBorder: "#93C5FD", tag: "VOICE AI", kieSupport: true
   },
@@ -52,7 +52,7 @@ const tools = [
     description: "Pay-per-use GPU inference. The backbone of your pipeline — stitches clips, merges audio, runs 1000+ models.",
     hospitality: ["Multi-clip video assembly", "Audio-visual sync", "Batch property ad rendering", "LoRA fine-tuning on brand assets"],
     usd: { Free: "$0 (starter credits)", "Per Image": "$0.03", "Per Video": "$0.05/sec", "Veo 3": "$0.40/sec" },
-    inr: { Free: "Free credits", "Per Image": "₹2.5", "Per Video": "₹4.2/sec", "Veo 3": "₹33/sec" },
+    inr: { Free: "Free credits", "Per Image": "₹2.9", "Per Video": "₹4.8/sec", "Veo 3": "₹38/sec" },
     note: "Pure pay-per-use. H100 GPU: $1.89/hr. No lock-in.",
     accent: "#6D28D9", accentBg: "#F5F3FF", accentBorder: "#C4B5FD", tag: "PIPELINE"
   },
@@ -62,7 +62,7 @@ const tools = [
     description: "Automate video creation from templates. Feed it property data and branding, it outputs polished ads for every platform.",
     hospitality: ["Branded room highlight reels", "Price & offer overlays", "Multi-platform ad resizing", "Dynamic seasonal promotions"],
     usd: { Essential: "$41/mo", Growth: "$99/mo", Beyond: "$249/mo" },
-    inr: { Essential: "₹3,420/mo", Growth: "₹8,260/mo", Beyond: "₹20,760/mo" },
+    inr: { Essential: "₹3,905/mo", Growth: "₹9,430/mo", Beyond: "₹23,717/mo" },
     note: "Free 50-credit trial. Annual = 2 months free.",
     accent: "#047857", accentBg: "#ECFDF5", accentBorder: "#6EE7B7", tag: "AUTOMATION"
   },
@@ -72,7 +72,7 @@ const tools = [
     description: "Gen-4 & Gen-4.5 models with advanced editing, Act Two performance capture, and AI upscaling.",
     hospitality: ["Cinematic color grading", "AI background replacement", "Long-form brand films", "Performance & emotion capture"],
     usd: { Free: "Free (125 credits)", Standard: "$12/mo", Pro: "$28/mo", Unlimited: "$76/mo" },
-    inr: { Free: "Free", Standard: "₹1,000/mo", Pro: "₹2,335/mo", Unlimited: "₹6,340/mo" },
+    inr: { Free: "Free", Standard: "₹1,143/mo", Pro: "₹2,667/mo", Unlimited: "₹7,239/mo" },
     note: "Billed annually. 625 credits on Standard ≈ 10 videos/month.",
     accent: "#B91C1C", accentBg: "#FEF2F2", accentBorder: "#FCA5A5", tag: "PRO EDIT"
   },
@@ -82,7 +82,7 @@ const tools = [
     description: "Turn a prompt into a complete branded soundtrack — lobby ambiance, ad tracks, emotional brand film scores.",
     hospitality: ["Lobby ambiance tracks", "Ad background music", "Branded jingle creation", "Seasonal mood playlists"],
     usd: { Free: "Free (50 credits/day)", Pro: "$10/mo", Premier: "$30/mo" },
-    inr: { Free: "Free", Pro: "₹835/mo", Premier: "₹2,500/mo" },
+    inr: { Free: "Free", Pro: "₹953/mo", Premier: "₹2,858/mo" },
     note: "Commercial rights on paid plans. Annual = $8/mo (Pro).",
     accent: "#0E7490", accentBg: "#ECFEFF", accentBorder: "#67E8F9", tag: "MUSIC AI", kieSupport: true
   },
@@ -92,7 +92,7 @@ const tools = [
     description: "Unified gateway to Veo 3.1, Sora 2, Kling 3.0, Wan 2.5, Seedance, ElevenLabs, Suno, and 20+ models at 30–70% lower cost.",
     hospitality: ["Single API for entire video stack", "Veo 3.1 at 70% lower cost", "Suno music + ElevenLabs voice", "Scale without juggling SDKs"],
     usd: { Credits: "$0.005/credit", "Veo 3 Fast 8s": "$0.40", "Veo 3 Full 8s": "~$1.50", Music: "Via Suno API" },
-    inr: { Credits: "₹0.42/credit", "Veo 3 Fast 8s": "₹33", "Veo 3 Full 8s": "~₹125", Music: "Via Suno API" },
+    inr: { Credits: "₹0.48/credit", "Veo 3 Fast 8s": "₹38", "Veo 3 Full 8s": "~₹143", Music: "Via Suno API" },
     note: "Pay-as-you-go credits. 30–70% cheaper than direct model APIs.",
     accent: "#9A6F00", accentBg: "#FEF9EC", accentBorder: "#D4A843", tag: "UNIFIED HUB"
   }
@@ -277,9 +277,9 @@ const kieModels = [
     desc: "Google's cinematic video model. Native audio sync. Best for hotel room reveals & property tours.",
     usd_unit: "8s clip",
     usd_price: "$0.40",
-    inr_price: "₹33",
+    inr_price: "₹38",
     usd_full: "$1.50 (full quality)",
-    inr_full: "₹125 (full quality)",
+    inr_full: "₹143 (full quality)",
     color: "#C47A00"
   },
   {
@@ -290,9 +290,9 @@ const kieModels = [
     desc: "OpenAI's Sora 2. Physics-consistent 720p–1080p. Great for narrative brand films & spa ambiance.",
     usd_unit: "10s clip",
     usd_price: "$1.00",
-    inr_price: "₹83",
+    inr_price: "₹95",
     usd_full: "$1.50 (15s)",
-    inr_full: "₹125 (15s)",
+    inr_full: "₹143 (15s)",
     color: "#1D4ED8"
   },
   {
@@ -303,9 +303,9 @@ const kieModels = [
     desc: "Kling 3.0. Best price-performance for high-volume social ads — Instagram Reels, TikTok, YouTube Shorts.",
     usd_unit: "10s clip",
     usd_price: "$0.70",
-    inr_price: "₹58",
+    inr_price: "₹67",
     usd_full: "$0.70",
-    inr_full: "₹58",
+    inr_full: "₹67",
     color: "#047857"
   },
   {
@@ -316,9 +316,9 @@ const kieModels = [
     desc: "ByteDance Seedance 2.0. Native audio generation. Excellent for F&B and restaurant ambiance videos.",
     usd_unit: "8s clip",
     usd_price: "$0.50",
-    inr_price: "₹42",
+    inr_price: "₹48",
     usd_full: "$0.50",
-    inr_full: "₹42",
+    inr_full: "₹48",
     color: "#6D28D9"
   },
   {
@@ -329,9 +329,9 @@ const kieModels = [
     desc: "Alibaba Wan 2.5. Most cost-effective for bulk batch rendering — 10+ variants per property.",
     usd_unit: "per sec",
     usd_price: "$0.05",
-    inr_price: "₹4.2",
+    inr_price: "₹4.8",
     usd_full: "$0.50 (10s)",
-    inr_full: "₹42 (10s)",
+    inr_full: "₹48 (10s)",
     color: "#B91C1C"
   },
   {
@@ -342,9 +342,9 @@ const kieModels = [
     desc: "ElevenLabs via kie.ai. Hyper-realistic narration in any accent. Property tours, concierge voice, brand films.",
     usd_unit: "per 1K chars",
     usd_price: "$0.18",
-    inr_price: "₹15",
+    inr_price: "₹17",
     usd_full: "~$0.50 avg spot",
-    inr_full: "~₹42 avg spot",
+    inr_full: "~₹48 avg spot",
     color: "#0E7490"
   },
   {
@@ -355,9 +355,9 @@ const kieModels = [
     desc: "Suno V5.5 via kie.ai. Full vocal + instrumental from a text prompt. Lobby ambiance, ad soundtracks, jingles.",
     usd_unit: "per track",
     usd_price: "$0.10",
-    inr_price: "₹8.4",
+    inr_price: "₹9.5",
     usd_full: "$0.10 per song",
-    inr_full: "₹8.4 per song",
+    inr_full: "₹9.5 per song",
     color: "#9A6F00"
   },
   {
@@ -368,9 +368,9 @@ const kieModels = [
     desc: "Google Nano Banana 2 — ultra-fast cinematic property stills. The input that feeds your video generation pipeline.",
     usd_unit: "per image",
     usd_price: "$0.03",
-    inr_price: "₹2.5",
+    inr_price: "₹2.9",
     usd_full: "$0.03",
-    inr_full: "₹2.5",
+    inr_full: "₹2.9",
     color: "#4A4440"
   },
 ];
@@ -477,7 +477,7 @@ function KieBanner({ region }) {
           <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
             <div style={{ background: "#F0EBE010", border: "1px solid #D4A84320", borderRadius: 5, padding: "10px 16px", textAlign: "center" }}>
               <div style={{ fontSize: 7, letterSpacing: 3, color: "#9A9080", fontFamily: "monospace", marginBottom: 3 }}>BASE CREDIT</div>
-              <div style={{ fontSize: 22, fontWeight: 700, color: C.goldBorder, fontFamily: "monospace" }}>{region === "usd" ? "$0.005" : "₹0.42"}</div>
+              <div style={{ fontSize: 22, fontWeight: 700, color: C.goldBorder, fontFamily: "monospace" }}>{region === "usd" ? "$0.005" : "₹0.48"}</div>
               <div style={{ fontSize: 9, color: "#9A9080", fontFamily: "sans-serif" }}>per credit</div>
             </div>
             <a href="https://kie.ai" target="_blank" rel="noreferrer" style={{ fontSize: 9, letterSpacing: 3, color: C.goldBorder, fontFamily: "monospace", textDecoration: "none", border: "1px solid #D4A84340", padding: "8px 14px", borderRadius: 2, display: "inline-block" }}>↗ KIE.AI</a>
@@ -539,7 +539,7 @@ function Proposal() {
                   }}>{r === "usd" ? "🇺🇸 USD" : "🇮🇳 INR"}</button>
                 ))}
               </div>
-              <span style={{ fontSize: 11, color: C.textMuted, fontFamily: "sans-serif" }}>INR ≈ USD × 83.5 · +18% GST for Indian businesses</span>
+              <span style={{ fontSize: 11, color: C.textMuted, fontFamily: "sans-serif" }}>Live rate: $1 = ₹95.25 (XE, May 25 2026) · +18% GST for Indian businesses</span>
             </div>
 
             <KieBanner region={region} />
@@ -636,12 +636,12 @@ function Proposal() {
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", gap: 11 }}>
                 {[
-                  { label: "60-sec hotel reel", usd: "$4 – $12", inr: "₹335 – ₹1,000" },
-                  { label: "15-sec social clip", usd: "$1 – $4", inr: "₹85 – ₹335" },
-                  { label: "Voiceover per spot", usd: "$0.10 – $1", inr: "₹8 – ₹85" },
-                  { label: "Background music", usd: "$0.25 – $0.50", inr: "₹21 – ₹42" },
-                  { label: "Batch 10 variants", usd: "$15 – $40", inr: "₹1,250 – ₹3,340" },
-                  { label: "Monthly campaign", usd: "$150 – $400", inr: "₹12,500 – ₹33,400" }
+                  { label: "60-sec hotel reel", usd: "$4 – $12", inr: "₹381 – ₹1,143" },
+                  { label: "15-sec social clip", usd: "$1 – $4", inr: "₹95 – ₹381" },
+                  { label: "Voiceover per spot", usd: "$0.10 – $1", inr: "₹10 – ₹95" },
+                  { label: "Background music", usd: "$0.25 – $0.50", inr: "₹24 – ₹48" },
+                  { label: "Batch 10 variants", usd: "$15 – $40", inr: "₹1,429 – ₹3,810" },
+                  { label: "Monthly campaign", usd: "$150 – $400", inr: "₹14,288 – ₹38,100" }
                 ].map((item, i) => (
                   <div key={i} style={{ background: C.surface, border: `1px solid ${C.border}`, borderRadius: 6, padding: "12px" }}>
                     <div style={{ fontSize: 11, color: C.textSub, fontFamily: "sans-serif", marginBottom: 5 }}>{item.label}</div>
@@ -687,12 +687,12 @@ function Proposal() {
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 12 }}>
                 {[
-                  { ad: "Room Reveal Ad", desc: "Door opens → cinematic 8s sweep of suite interior. Ends on price overlay. Runs on OTA, Instagram, YouTube pre-roll.", tag: "CONVERSION" },
-                  { ad: "Pool & Lobby Ambiance", desc: "Golden-hour pool shot, smooth camera drift, soft music. No voiceover. Pure mood. Used for Reels & TikTok top-of-funnel.", tag: "AWARENESS" },
-                  { ad: "Seasonal Offer Spot", desc: "8s: summer/winter visual → offer text overlay → CTA. Batch-generated in 10 variants per season via Creatomate.", tag: "PROMO" },
-                  { ad: "Multilingual Brand Film", desc: "30s property story narrated by ElevenLabs voice clone in English, Hindi, Arabic. One shoot, three markets.", tag: "BRAND" },
-                  { ad: "OTA Thumbnail-to-Video", desc: "Existing Booking.com/Expedia hero images animated into 8s clips via Veo 3.1. No new shoot required.", tag: "LOW COST" },
-                  { ad: "Review-to-Reel", desc: "Real guest quote rendered as animated text over property footage. Social proof in 8 seconds flat.", tag: "TRUST" },
+                  { ad: "Room Reveal Ad", desc: "Door opens → cinematic 8s sweep of suite interior. Ends on price overlay. Deployed on Booking.com, Instagram Stories, and YouTube pre-roll.", tag: "CONVERSION" },
+                  { ad: "Pool & Lobby Ambiance", desc: "Golden-hour pool shot, smooth camera drift, Suno AI ambient score. No voiceover. Pure mood. Used for Instagram Reels & TikTok top-of-funnel.", tag: "AWARENESS" },
+                  { ad: "Seasonal Offer Spot", desc: "8s: summer/winter visual → offer text overlay → CTA. Batch-generated in 10 variants per season via Creatomate. One template, 10 rooms.", tag: "PROMO" },
+                  { ad: "Multilingual Brand Film", desc: "30s property story narrated by ElevenLabs voice clone in English, Hindi, Arabic. One source video, three language markets.", tag: "BRAND" },
+                  { ad: "OTA Image-to-Video", desc: "Existing Booking.com/Expedia hero photos animated into cinematic 8s clips via Kling 3.0 or Seedance 2.0. No new shoot, no crew, no cost.", tag: "LOW COST" },
+                  { ad: "Review-to-Reel", desc: "Real guest quote rendered as animated text over property footage with background score. Social proof in 8 seconds. Runs on Instagram & Google Display.", tag: "TRUST" },
                 ].map((item, i) => (
                   <div key={i} style={{ background: C.surface, border: `1px solid ${C.border}`, borderRadius: 6, padding: "14px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6 }}>
@@ -742,9 +742,9 @@ function Proposal() {
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 14 }}>
                 {[
-                  { tier: "Starter", color: "#A09888", price_usd: "$800/mo", price_inr: "₹66,800/mo", ai_usd: "$50–$100/mo", ai_inr: "₹4,175–₹8,350/mo", includes: ["8 short video ads/mo", "2 platform variants each", "Voiceover included", "Brand music included"] },
-                  { tier: "Growth", color: C.goldBorder, price_usd: "$2,200/mo", price_inr: "₹1,84,000/mo", ai_usd: "$200–$400/mo", ai_inr: "₹16,700–₹33,400/mo", includes: ["30 video ads/mo", "Multi-platform sizing", "Voice cloning", "Multilingual versions"] },
-                  { tier: "Enterprise", color: "#F472B6", price_usd: "$6,000/mo", price_inr: "₹5,00,000/mo", ai_usd: "$500–$1,200/mo", ai_inr: "₹41,750–₹1,00,200/mo", includes: ["Unlimited variants", "Custom AI fine-tuning", "Brand voice clone", "Full pipeline ownership"] }
+                  { tier: "Starter", color: "#A09888", price_usd: "$800/mo", price_inr: "₹76,200/mo", ai_usd: "$50–$100/mo", ai_inr: "₹4,763–₹9,525/mo", includes: ["8 video ads/mo (8–15s each)", "Resized for Instagram Reels + YouTube Shorts", "ElevenLabs voiceover on every ad", "Suno AI music rendered into video"] },
+                  { tier: "Growth", color: C.goldBorder, price_usd: "$2,200/mo", price_inr: "₹2,09,550/mo", ai_usd: "$200–$400/mo", ai_inr: "₹19,050–₹38,100/mo", includes: ["30 video ads/mo (8–30s each)", "4 formats: Reels, Shorts, Stories, 16:9", "ElevenLabs voice clone of brand narrator", "English + Hindi + Arabic versions"] },
+                  { tier: "Enterprise", color: "#F472B6", price_usd: "$6,000/mo", price_inr: "₹5,71,500/mo", ai_usd: "$500–$1,200/mo", ai_inr: "₹47,625–₹1,14,300/mo", includes: ["Unlimited ad variants via Creatomate", "Fine-tuned video model on your property", "Cloned brand voice across all languages", "Full n8n pipeline — brief to publish"] }
                 ].map((t, i) => (
                   <div key={i} style={{ background: "#2A2420", border: `1px solid ${t.color}35`, borderRadius: 7, padding: "18px" }}>
                     <div style={{ fontSize: 8, letterSpacing: 4, color: t.color, fontFamily: "monospace", marginBottom: 7 }}>{t.tier.toUpperCase()}</div>
